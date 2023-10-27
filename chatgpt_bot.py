@@ -8,7 +8,7 @@ from handle_message import handle_message
 from handle_error import error_handler
 
 # setup ENV path
-dotenv_path = '/Users/mi_xzm/vscode/python/.venv/.env'
+dotenv_path = 'example/.env'
 load_dotenv(dotenv_path)
 TOKEN_TELEGRAM: str = os.getenv('TOKEN_TELEGRAM')
 
