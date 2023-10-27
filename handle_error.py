@@ -7,7 +7,7 @@ from telegram.constants import ParseMode
 from telegram.ext import ContextTypes
 
 
-DEVELOPER_CHAT_ID: str = '174732425'
+DEVELOPER_CHAT_ID: str = 'telegram_id_tech_support'
 
 # Initialize logger
 logger = setup_logger(__name__)
