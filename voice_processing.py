@@ -6,7 +6,7 @@ from telegram.ext import ContextTypes
 from response_gpt import gpt_response as resp_gpt
 from user_preferences import user_preferences
 
-FILE_PATH = '/Users/mi_xzm/vscode/python/.venv/'
+FILE_PATH = '/example'
 
 def convert_oga_to_wav(oga_file_path, wav_file_path):
     audio = AudioSegment.from_file(oga_file_path, format='ogg')
