@@ -2,7 +2,7 @@ import os
 import openai
 from dotenv import load_dotenv
 
-dotenv_path = '/Users/mi_xzm/vscode/python/.venv/.env'
+dotenv_path = 'example/.env'
 load_dotenv(dotenv_path)
 TOKEN_OPENAI: str = os.getenv('TOKEN_OPENAI')
 openai.api_key = TOKEN_OPENAI
