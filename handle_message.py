@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import ContextTypes
 
 # setup ENV path
-dotenv_path = '/Users/mi_xzm/vscode/python/.venv/.env'
+dotenv_path = 'example/.env'
 load_dotenv(dotenv_path)
 BOT_USERNAME: str = os.getenv('BOT_USERNAME')
 
