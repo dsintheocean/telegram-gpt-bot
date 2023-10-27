@@ -2,10 +2,6 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import ContextTypes, CallbackContext
 from user_preferences import user_preferences
 
-
-# async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-#     await update.message.reply_text('Привет! Ты можешь задать любой вопрос, на русском или английском языке. Текстом или голосом.')
-
 async def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
         [
